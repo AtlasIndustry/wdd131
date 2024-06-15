@@ -8,10 +8,12 @@
 
 /* Body styles */
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Inter', sans-serif; /* Added font-family */
+    font-weight: 200; /* Added font-weight */
     background-color: #f2f2f2;
     color: #333;
 }
+
 
 /* Header styles */
 header {
@@ -45,6 +47,7 @@ nav ul li a {
 nav ul li a:hover {
     color: #ffcc00;
 }
+
 /* Main styles */
 main {
     max-width: 1300px;
@@ -100,6 +103,7 @@ main {
     grid-row: 1;
     grid-template-rows: 1fr;
 }
+
 
 /* Footer styles */
 footer {
