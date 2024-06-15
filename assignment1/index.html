@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 - Dynamic Web Fundamentals - Bryce Hansen</title>
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals, Bryce Hansen, About Me">
+    <meta name="author" content="Bryce Hansen">
+    <link rel="stylesheet" href="styles/base.css">
+    <script src="getdates.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>WDD 131 - Dynamic Web Fundamentals - Bryce Hansen</h1>
+        <nav>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/brycehansen11/" target="_blank">LinkedIn Profile</a></li>
+                <li><a href="https://byui.instructure.com/" target="_blank">I-Learn</a></li>
+                <li><a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/21?lang=eng" target="_blank">Favorite Scripture</a></li>
+                <li><a href="#" target="_blank">Final Project Folder</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="card">
+            <h2>About me</h2>
+            <p>I am am individual who has an insatiable thirst for knowledge. 
+                I am passionate about learning and constantly strive to expand my horizons. 
+                I thrive on pushing the boundaries and proving others wrong when they doubt my abilities. 
+                I am a firm believer in personal growth and evolution, and I am always seeking new challenges to conquer. 
+                My love for learning knows no bounds, and I am constantly immersing myself in various subjects and disciplines. 
+                I am excited to embark on this web development journey and see where it takes me, as I am confident that it will be a catalyst for my personal and professional growth.</p>
+            </p>
+            <ul>
+            <li><a href="#">Resource 1</a></li>
+            <li><a href="#">Resource 2</a></li>
+            <li><a href="#">Resource 3</a></li>
+            </ul>
+            <img src="images/Self.jpeg" alt="Self">
+        </section>
+        </section>
+        <section class="card">
+            <h2></h2>
+            <p>Content for section 2</p>
+            <ul>
+                <li><a href="#">Resource 1</a></li>
+                <li><a href="#">Resource 2</a></li>
+                <li><a href="#">Resource 3</a></li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; <span id="currentyear"></span> Bryce Hansen | Idaho U.S</p>
+        <p id="lastModified"></p>
+    </footer>
+
+    <script>
+        // JavaScript code to populate current year and last modified date
+        const currentYear = new Date().getFullYear();
+        document.getElementById("currentyear").textContent = currentYear;
+        document.getElementById("lastModified").textContent = "Last modified: " + document.lastModified;
+    </script>
+</body>
+</html>

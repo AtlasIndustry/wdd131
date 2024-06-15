@@ -1,0 +1,134 @@
+
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+}
+/* Main styles */
+main {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Changed from 2 to 3 columns */
+    grid-gap: 20px;
+    
+}
+.card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: grid;
+    grid-template-columns: auto 1fr; /* Changed from 1fr 1fr to auto 1fr */
+    grid-gap: 40px;
+    grid-template-rows: 100px;
+}
+
+.card h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.card p {
+    margin-bottom: 10px;
+    grid-column: 1;
+}
+
+.card ul {
+    list-style: none;
+    grid-column: 1;
+}
+
+.card ul li {
+    margin-bottom: 5px;
+}
+
+.card ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    grid-column: 1;
+    grid-row: 1;
+    grid-template-rows: 1fr;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+#currentyear {
+    font-weight: bold;
+}
+
+#lastModified {
+    font-style: italic;
+}
+section.card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+section.card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    grid-column: 2;
+}
