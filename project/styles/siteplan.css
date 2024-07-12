@@ -1,0 +1,25 @@
+* {
+    margin: auto;
+    padding: 5px;
+    box-sizing: border-box;
+}
+body {
+    margin-left: 10px;
+    background-color: rgb(255, 255, 255);
+    margin-right: 10px;
+    font-family: 'Roboto', Helvetica, sans-serif;
+}
+header h1 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.color-schema .primary {
+    color: #4CAF50;
+}
+.color-schema .secondary {
+    color: #F5F5DC;
+}
+.color-schema .aux {
+    color: rgb(255, 0, 0);
+}
