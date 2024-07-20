@@ -1,0 +1,111 @@
+@media (max-width: 600px) {
+    body {
+        font-size: smaller;
+    }
+
+    header, footer {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    header h1 {
+        margin: 10px 0;
+        font-size: 1.2rem;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+
+    .loginButton {
+        margin-top: 10px;
+        width: 80%;
+        text-align: center;
+    }
+
+    .welcome-msg {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .welcome-msg picture,
+    .welcome-msg p {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .feedback-and-call {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .feedback form {
+        width: 100%;
+    }
+
+    .feedback label,
+    .feedback input[type="text"],
+    .feedback input[type="lname"],
+    .feedback input[type="email"],
+    .feedback input[type="tel"],
+    .feedback textarea {
+        width: 100%;
+    }
+
+    .feedback input[type="submit"], .payment button {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .chat-button {
+        margin: 20px auto;
+    }
+
+    .chat-button button {
+        width: 100%;
+        padding: 0.5rem;
+    }
+
+    form {
+        width: 100%;
+        margin: 0 auto;
+        padding: 1rem;
+    }
+
+    .about-us .container,
+    .faq .container {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    table, th, td {
+        display: block;
+        width: 100%;
+    }
+
+    th, td {
+        box-sizing: border-box;
+        text-align: right;
+        position: relative;
+        padding-left: 50%;
+    }
+
+    th::before, td::before {
+        content: attr(data-label);
+        position: absolute;
+        left: 10px;
+        width: calc(50% - 20px);
+        padding-right: 10px;
+        white-space: nowrap;
+        text-align: left;
+    }
+}
